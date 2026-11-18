@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roʻzibek Qodirov | Software Engineer & Python Developer Portfolio</title>
+    <meta name="description" content="Roʻzibek Qodirov Avazbek oʻgʻli - Python Developer & Software Engineer from Asaka, Andijan. Official profile, biography, skills, and projects.">
+    <meta name="keywords" content="Roʻzibek Qodirov, Rozibek Qodirov, Python Developer, Software Engineer, Asaka Andijan, Portfolio">
+    <meta name="author" content="Roʻzibek Qodirov">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Roʻzibek Qodirov | Software Engineer Portfolio">
+    <meta property="og:description" content="Official personal biography, skills, and software engineering projects of Roʻzibek Qodirov.">
+    <meta property="og:type" content="profile">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Roʻzibek Qodirov Avazbek oʻgʻli",
+      "givenName": "Roʻzibek",
+      "familyName": "Qodirov",
+      "birthDate": "2006-01-21",
+      "jobTitle": "Software Engineer & Python Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Asaka",
+        "addressRegion": "Andijan",
+        "addressCountry": "UZ"
+      },
+      "telephone": "+998911162116",
+      "sameAs": [
+        "https://t.me/rozibek_qodirov",
+        "https://instagram.com/rozibek_qodirov"
+      ]
+    }
+    </script>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #030712;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        .font-mono {
+            font-family: 'Fira Code', monospace;
+        }
+        .glass-card {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(6, 182, 212, 0.25);
+            box-shadow: 0 0 30px rgba(6, 182, 212, 0.15);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            border-color: rgba(6, 182, 212, 0.6);
+            box-shadow: 0 0 45px rgba(6, 182, 212, 0.3);
+            transform: translateY(-2px);
+        }
+        .bg-grid {
+            background-image: linear-gradient(to right, rgba(6, 182, 212, 0.04) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(6, 182, 212, 0.04) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+        /* Scanline HUD animation */
+        @keyframes scanline {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(1000%); }
+        }
+        .scanline {
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(to right, transparent, rgba(6, 182, 212, 0.8), transparent);
+            animation: scanline 6s linear infinite;
+            pointer-events: none;
+        }
+        /* Typing cursor effect */
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 15px;
+            background-color: #22d3ee;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body class="bg-grid min-h-screen p-4 md:p-8 flex items-center justify-center relative">
+
+    <!-- Scanline HUD effect container -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-20">
+        <div class="scanline"></div>
+    </div>
+
+    <div class="max-w-4xl w-full space-y-6 z-10">
+        
+        <!-- Yuqori qism: Profil va Asosiy Ma'lumotlar -->
+        <div class="glass-card rounded-2xl p-6 md:p-8 relative overflow-hidden grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
+
+            <div class="flex flex-col items-center text-center">
+                <div class="w-28 h-28 rounded-2xl bg-gradient-to-tr from-cyan-500 to-blue-600 p-1 flex items-center justify-center shadow-[0_0_25px_rgba(6,182,212,0.4)] mb-3 relative group">
+                    <div class="w-full h-full bg-slate-950 rounded-xl flex items-center justify-center text-cyan-400 font-mono text-3xl font-bold group-hover:scale-105 transition-transform">
+                        RQ
+                    </div>
+                </div>
+                <span class="text-xs font-mono px-3 py-1 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 rounded-full animate-pulse">● ONLINE SYSTEM</span>
+            </div>
+
+            <div class="md:col-span-2 text-center md:text-left space-y-2">
+                <h1 class="text-2xl md:text-3xl font-bold text-white tracking-wide">Roʻzibek Qodirov Avazbek oʻgʻli</h1>
+                <p class="text-xs font-mono text-cyan-400 uppercase tracking-widest">
+                    [ <span id="typed-text">Python Developer</span><span class="cursor"></span> ]
+                </p>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 text-xs font-mono text-slate-300 border-t border-slate-800">
+                    <div><span class="text-slate-500">Tug'ilgan sana:</span> 21.01.2006</div>
+                    <div><span class="text-slate-500">Manzil:</span> Asaka, Andijon</div>
+                    <div><span class="text-slate-500">Tel:</span> <a href="tel:+998911162116" class="text-cyan-400 hover:underline">+998 91 116 21 16</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ikki ustunli bo'lim: Biografiya + Aloqa Tarmoqlari -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Bio va Qiziqishlar -->
+            <div class="glass-card rounded-2xl p-6 md:col-span-2 relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500"></div>
+                <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-3">// BIO.DAT & ISHTiyoq</h2>
+                <p class="text-sm text-slate-300 leading-relaxed mb-4">
+                    Dasturiy ta'minot yaratish, xavfsizlik tizimlari va zamonaviy veb-ilovalarni loyihalashtirishga ishtiyoqmand dasturchiman. Python tili yordamida backend xizmatlari, avtomatlashtirilgan vositalar, desktop GUI dasturlari hamda sun'iy intellekt integratsiyalarini yaratish bilan shug'ullanaman.
+                </p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-3 py-1 bg-slate-900/80 border border-cyan-500/30 rounded-md text-xs font-mono text-cyan-300 hover:bg-cyan-950/40 transition-colors">Python</span>
+                    <span class="px-3 py-1 bg-slate-900/80 border border-cyan-500/30 rounded-md text-xs font-mono text-cyan-300 hover:bg-cyan-950/40 transition-colors">FastAPI / Flask</span>
+                    <span class="px-3 py-1 bg-slate-900/80 border border-cyan-500/30 rounded-md text-xs font-mono text-cyan-300 hover:bg-cyan-950/40 transition-colors">Tkinter GUI</span>
+                    <span class="px-3 py-1 bg-slate-900/80 border border-cyan-500/30 rounded-md text-xs font-mono text-cyan-300 hover:bg-cyan-950/40 transition-colors">Telegram Bots</span>
+                    <span class="px-3 py-1 bg-slate-900/80 border border-cyan-500/30 rounded-md text-xs font-mono text-cyan-300 hover:bg-cyan-950/40 transition-colors">JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Aloqa Tarmoqlari -->
+            <div class="glass-card rounded-2xl p-6 relative overflow-hidden flex flex-col justify-between">
+                <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 to-blue-600"></div>
+                <div>
+                    <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-4">// ALOQA</h2>
+                    <div class="space-y-2 text-xs font-mono">
+                        <a href="https://t.me/rozibek_qodirov" target="_blank" class="block p-2 bg-slate-900 hover:bg-cyan-950/40 border border-slate-800 hover:border-cyan-500/50 rounded-lg text-cyan-300 transition-all">
+                            > Telegram: @rozibek_qodirov
+                        </a>
+                        <a href="https://instagram.com/rozibek_qodirov" target="_blank" class="block p-2 bg-slate-900 hover:bg-cyan-950/40 border border-slate-800 hover:border-cyan-500/50 rounded-lg text-cyan-300 transition-all">
+                            > Instagram: @rozibek_qodirov
+                        </a>
+                        <a href="https://wa.me/998911162116" target="_blank" class="block p-2 bg-slate-900 hover:bg-cyan-950/40 border border-slate-800 hover:border-cyan-500/50 rounded-lg text-cyan-300 transition-all">
+                            > WhatsApp: @rozibek_qodirov
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Loyihalar Bo'limi -->
+        <div class="glass-card rounded-2xl p-6 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyan-500 via-blue-600 to-cyan-500"></div>
+            <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-4">// ASOSIY PROYEKTLAR VA ISHLAR</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <div class="bg-slate-900/60 rounded-xl p-4 border border-slate-800 hover:border-cyan-500/40 transition-all group">
+                    <h3 class="text-sm font-bold text-white mb-1 group-hover:text-cyan-400 transition-colors">BONU AI</h3>
+                    <p class="text-xs text-slate-400 mb-3">Shaxsiy ovozli yordamchi va desktop sun'iy intellekt interfeysi (Python & Web).</p>
+                    <span class="text-[10px] font-mono px-2 py-0.5 bg-cyan-500/10 text-cyan-400 rounded">Python / AI</span>
+                </div>
+
+                <div class="bg-slate-900/60 rounded-xl p-4 border border-slate-800 hover:border-cyan-500/40 transition-all group">
+                    <h3 class="text-sm font-bold text-white mb-1 group-hover:text-cyan-400 transition-colors">POS & Inventory System</h3>
+                    <p class="text-xs text-slate-400 mb-3">Savdo va ombor hisobini yurituvchi, chek chiqarish funksiyasiga ega maxsus desktop dastur.</p>
+                    <span class="text-[10px] font-mono px-2 py-0.5 bg-cyan-500/10 text-cyan-400 rounded">Desktop / POS</span>
+                </div>
+
+                <div class="bg-slate-900/60 rounded-xl p-4 border border-slate-800 hover:border-cyan-500/40 transition-all group">
+                    <h3 class="text-sm font-bold text-white md-1 group-hover:text-cyan-400 transition-colors">Interactive Tasbeh</h3>
+                    <p class="text-xs text-slate-400 mb-3">Maxsus vizual mavzular va ovozli integratsiyaga ega veb-asosdagi raqamli Tasbeh ilovasi.</p>
+                    <span class="text-[10px] font-mono px-2 py-0.5 bg-cyan-500/10 text-cyan-400 rounded">Web / JS</span>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Yangi Bo'lim: Interaktiv Terminal / Xabar Yuborish -->
+        <div class="glass-card rounded-2xl p-6 relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 to-cyan-500"></div>
+            <h2 class="text-xs font-mono text-cyan-400 uppercase tracking-widest mb-3">// QUICK_COMMANDS & TERMINAL</h2>
+            
+            <div class="bg-slate-950 rounded-xl p-4 border border-slate-800 font-mono text-xs text-slate-300 space-y-2">
+                <div class="text-cyan-400">root@rozibek-pc:~# system_status --check</div>
+                <div class="text-slate-400">> All modules loaded: Python 3.12, Flask Backend, Tailwind HUD Active.</div>
+                <div class="text-cyan-400">root@rozibek-pc:~# contact_direct</div>
+                <div class="text-emerald-400">> Telegram orqali bog'lanish uchun quyidagi tugmani bosing:</div>
+                <div class="pt-2">
+                    <a href="https://t.me/rozibek_qodirov" target="_blank" class="inline-block px-4 py-2 bg-cyan-500/20 hover:bg-cyan-500/30 border border-cyan-500/50 rounded text-cyan-300 transition-all font-bold">
+                        > Telegram'ga Xabar Yozish
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript for Typing Effect -->
+    <script>
+        const words = ["Python Developer", "Software Engineer", "Backend Creator", "HUD Designer"];
+        let i = 0;
+        let timer;
+
+        function typingEffect() {
+            let word = words[i].split("");
+            var loopTyping = function() {
+                if (word.length > 0) {
+                    document.getElementById('typed-text').innerHTML += word.shift();
+                } else {
+                    setTimeout(deletingEffect, 2000);
+                    return;
+                }
+                timer = setTimeout(loopTyping, 100);
+            };
+            loopTyping();
+        }
+
+        function deletingEffect() {
+            let word = words[i].split("");
+            var loopDeleting = function() {
+                if (word.length > 0) {
+                    word.pop();
+                    document.getElementById('typed-text').innerHTML = word.join("");
+                } else {
+                    if (words.length > (i + 1)) {
+                        i++;
+                    } else {
+                        i = 0;
+                    }
+                    setTimeout(typingEffect, 500);
+                    return;
+                }
+                timer = setTimeout(loopDeleting, 50);
+            };
+            loopDeleting();
+        }
+
+        typingEffect();
+    </script>
+</body>
+</html>
